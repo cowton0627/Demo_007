@@ -591,13 +591,13 @@
         <!--Table View Controller-->
         <scene sceneID="V8V-6V-WxR">
             <objects>
-                <tableViewController id="Tu6-EY-G6X" sceneMemberID="viewController">
+                <tableViewController hidesBottomBarWhenPushed="YES" id="Tu6-EY-G6X" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" scrollEnabled="NO" dataMode="static" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="DsU-q9-uFh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="758"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <containerView key="tableHeaderView" opaque="NO" contentMode="scaleToFill" id="jpa-76-tYj">
-                            <rect key="frame" x="0.0" y="-54" width="375" height="312"/>
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="312"/>
                             <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMinY="YES"/>
                             <connections>
                                 <segue destination="kQc-dz-fXW" kind="embed" id="G86-Rw-P2z"/>
