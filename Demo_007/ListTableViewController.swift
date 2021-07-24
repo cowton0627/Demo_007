@@ -18,6 +18,8 @@ class ListTableViewController: UITableViewController {
 
         // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
+        
+//        self.view.addSubview(contentTextView)
     }
 
     // MARK: - Table view data source
