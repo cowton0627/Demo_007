@@ -7,13 +7,14 @@
 
 import UIKit
 
-class FirstViewTableViewController: UITableViewController, UINavigationBarDelegate {
+class FirstViewTableViewController: UITableViewController {
 
+    
+    
     
     override func viewDidLoad() {
         super.viewDidLoad()
-//        self.navigationController?.setNavigationBarHidden(true, animated: true)
-//        self.tableView.contentInset = UIEdgeInsets(top: 0, left: 0, bottom: 0, right: 0)
+        
         
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
@@ -27,10 +28,10 @@ class FirstViewTableViewController: UITableViewController, UINavigationBarDelega
             navigationController?.setNavigationBarHidden(true, animated: true)
             super.viewWillAppear(animated)
         }
-        override func viewWillDisappear(_ animated: Bool) {
+    override func viewWillDisappear(_ animated: Bool) {
             navigationController?.setNavigationBarHidden(false, animated: true)
             super.viewWillDisappear(animated)
-        }
+    }
  
     // MARK: - Table view data source
 
