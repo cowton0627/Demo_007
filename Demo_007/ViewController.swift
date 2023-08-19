@@ -12,8 +12,6 @@ class ViewController: UIViewController {
 
 //    @IBOutlet weak var myWebView: WKWebView!
     
-
-//
 //    private lazy var layer : AVPlayerLayer = {
 //        let remoteURL = NSURL(string: "https://movietrailers.apple.com/movies/marvel/black-widow/black-widow-trailer-legacy_h480p.mov")
 //        self.player = AVPlayer(url: remoteURL! as URL)
@@ -25,12 +23,6 @@ class ViewController: UIViewController {
         super.viewDidLoad()
 //        view.layer .addSublayer(self.layer)
 //        layer.frame = view.bounds
-
-        
-        
-        
-        
-        
     }
 
 
