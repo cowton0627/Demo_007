@@ -1,5 +1,5 @@
 //
-//  FirstViewTableViewController.swift
+//  MainPageTableViewController.swift
 //  Demo_007
 //
 //  Created by 鄭淳澧 on 2021/7/17.
@@ -7,15 +7,13 @@
 
 import UIKit
 
-class FirstViewTableViewController: UITableViewController {
+class MainPageTableViewController: UITableViewController {
 
     
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        
-        
         // Uncomment the following line to preserve selection between presentations
         // self.clearsSelectionOnViewWillAppear = false
 
@@ -23,14 +21,14 @@ class FirstViewTableViewController: UITableViewController {
         // self.navigationItem.rightBarButtonItem = self.editButtonItem
     }
 
-    //通過複寫方法, 只在第一頁讓nav bar消失
+    // 通過複寫方法, 只在第一頁讓 nav bar 消失
     override func viewWillAppear(_ animated: Bool) {
-            navigationController?.setNavigationBarHidden(true, animated: true)
-            super.viewWillAppear(animated)
-        }
+        navigationController?.setNavigationBarHidden(true, animated: true)
+        super.viewWillAppear(animated)
+    }
     override func viewWillDisappear(_ animated: Bool) {
-            navigationController?.setNavigationBarHidden(false, animated: true)
-            super.viewWillDisappear(animated)
+        navigationController?.setNavigationBarHidden(false, animated: true)
+        super.viewWillDisappear(animated)
     }
  
     // MARK: - Table view data source
